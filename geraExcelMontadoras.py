@@ -72,5 +72,6 @@ try:
             dfmont = df[(df.make == "volvo")]
             dfmont.to_excel(r"I:\Documentos\Programacao\Projetos de Python\Montadoras\volvo.xlsx", index=True)
     print('Relatório gerados!')
+    #Esta nova linha foi adicionada pelo VSCode
 except Exception as e:
     print(f'Erro apresentado: \n{e}')
